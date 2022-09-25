@@ -20,12 +20,14 @@ LIMIT 1;
 
 -- [Section 2] HackerRank
 
-/* Q1. Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order. */
+/* Q1. Employee Names)
+Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order. */
 SELECT name
 FROM Employee
 ORDER BY;
 
-/* Q2. Write a query that prints a list of employee names (i.e.: the name attribute) for employees in Employee having a salary greater than  per month who have been employees for less than  months. 
+/* Q2. Employee Salaries)
+Write a query that prints a list of employee names (i.e.: the name attribute) for employees in Employee having a salary greater than  per month who have been employees for less than  months. 
 Sort your result by ascending employee_id. */
 SELECT name
 FROM Employee
