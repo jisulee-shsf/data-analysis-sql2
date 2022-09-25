@@ -16,8 +16,6 @@ SELECT *
 FROM Customers
 WHERE CustomerID < 20 AND Country = 'UK';
 
-
-
 -- [Section 2] LIKE / IN / BETWEEN / IS NULL
 
 -- Q1. '%' 와일드카드 문자를 사용해 Country가 'K'로 끝나는 값 추출하기
@@ -53,8 +51,6 @@ WHERE CustomerID BETWEEN 7 AND 10;
 SELECT *
 FROM Customers
 WHERE CustomerID IS NULL;
-
-
 
 -- [Section 3] HackerRank
 
