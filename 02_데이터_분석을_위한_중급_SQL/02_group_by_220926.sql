@@ -15,15 +15,15 @@ ORDER BY AVG(Price) DESC;
 
 -- Q3. SupplierID / CategoryId 기준으로 50 이상의 평균 Price를 'avg_price' 명칭으로 출력하기
 SELECT SupplierID
-	 , CategoryId
-	 , AVG(Price) AS avg_price
+     , CategoryId
+     , AVG(Price) AS avg_price
 FROM Products
 GROUP BY SupplierID, CategoryId
 HAVING AVG(Price) >= 50;
 
 -- [Section 2] HakerRank
 
-/* Q1. Top Earners)
+/* Q. Top Earners)
 We define an employee's total earnings to be their monthly  worked, and the maximum total earnings to be the maximum total earnings for any employee in the Employee table. 
 Write a query to find the maximum total earnings for all employees as well as the total number of employees who have maximum total earnings. 
 Then print these values as  space-separated integers. */
