@@ -7,4 +7,4 @@
 - SELECT AVG(Name) : NULL 값이 있을 경우, NULL을 제외한 평균값 출력
 - SELECT SUM(Name) / COUNT(*) : NULL을 0으로 처리하여 NULL이 포함된 평균값 출력
 ##  
-#### ► []  
+#### ► [02_group_by_220926]  
