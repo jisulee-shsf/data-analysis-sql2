@@ -59,12 +59,12 @@ SELECT *
 FROM CITY
 WHERE COUNTRYCODE = 'USA' AND POPULATION > 100000;
 
--- Q1. Query all columns for a city in CITY with the ID 1661.
+-- Q2. Query all columns for a city in CITY with the ID 1661.
 SELECT *
 FROM CITY
 WHERE ID = 1661;
 
--- Q2. Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+-- Q3. Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
 -- WHERE CITY IN ('a%', 'e%', 'i%', 'o%', 'u%'); > IN의 경우, CITY 컬럼 값과 괄호 문자열이 정확히 일치하는 경우만 찾는 것을 의미하므로 적용 불가 
 SELECT DISTINCT CITY
 FROM STATION
@@ -74,7 +74,7 @@ OR CITY LIKE 'i%'
 OR CITY LIKE 'o%'
 OR CITY LIKE 'u%';
 
--- Q3. Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. Your result cannot contain duplicates.
+-- Q4. Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. Your result cannot contain duplicates.
 SELECT DISTINCT CITY 
 FROM STATION
 WHERE CITY NOT LIKE 'a%' 
