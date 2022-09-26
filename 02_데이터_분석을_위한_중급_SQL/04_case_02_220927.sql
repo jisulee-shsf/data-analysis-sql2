@@ -4,7 +4,7 @@ SELECT SUM(CASE WHEN SupplierID = 1 THEN Price ELSE NULL END) AS 'SupplierID1_av
      , SUM(CASE WHEN SupplierID = 3 THEN Price ELSE NULL END) AS 'SupplierID3_avg'
 FROM Products;
 
--- Q2. Pivot Table) CASE WHEN을 사용해 month별 revenue 총합을 id에 따라 출력하기
+-- Q2. Pivot Table) CASE WHEN을 사용해 id에 따라 month별 revenue 총합을 출력하기
 SELECT id
      , SUM(CASE WHEN month = 'Jan' THEN revenue ELSE NULL END) AS Jan_Revenue
      , SUM(CASE WHEN month = 'Feb' THEN revenue ELSE NULL END) AS Feb_Revenue
