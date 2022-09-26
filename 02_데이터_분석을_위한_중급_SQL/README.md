@@ -15,5 +15,17 @@
 - Q6. Weather Observation Station 4) https://www.hackerrank.com/challenges/weather-observation-station-4/problem  
 ##  
 #### ► [02_group_by_220926]  
-- HackerRank 1문제 풀이 진행  
+- GROUP BY 활용 실습 및 HackerRank 1문제 풀이 진행   
 - Q. Top Earners) https://www.hackerrank.com/challenges/earnings-of-employees/problem  
+- ✔︎ SELECT 절에 alias 설정할 경우, alias를 사용해 다른 절에서 호출이 가능한 점 확인  
+##  
+#### ► [03_case_01_220926]  
+- CASE 활용 실습 및 HackerRank 1문제 풀이 진행  
+- Q. Type of Triangle) https://www.hackerrank.com/challenges/what-type-of-triangle/problem  
+- ✔︎  
+####  
+#### ► [04_case_02_220926]  
+- HackerRank 2문제 풀이 진행  
+- Q. Type of Triangle) https://www.hackerrank.com/challenges/what-type-of-triangle/problem  
+- ✔︎  
+##  
