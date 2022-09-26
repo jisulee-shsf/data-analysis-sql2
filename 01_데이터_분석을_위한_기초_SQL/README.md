@@ -1,19 +1,19 @@
 ####  
 ## 01. 데이터 분석을 위한 기초 SQL
 #### ► [01_select_from_limit_220925]  
-- SELECT / FROM / LIMIT 활용 실습 및 HackerRank 2문제 풀이 진행  
+- SELECT / FROM / LIMIT 활용 실습 및 HackerRank 문제 풀이 진행  
 - Q1. Select All) https://www.hackerrank.com/challenges/select-all-sql/problem
 - Q2. Weather Observation Station 1) https://www.hackerrank.com/challenges/weather-observation-station-1/problem
 ##  
 #### ► [02_where_220925]  
-- WHERE 조건절에 사용되는 비교 연산자 / 논리 연산자 / LIKE / IN / BETWEEN / IS NULL 활용 실습 및 HackerRank 4문제 풀이 진행  
+- WHERE 조건절에 사용되는 비교 연산자 / 논리 연산자 / LIKE / IN / BETWEEN / IS NULL 활용 실습 및 HackerRank 문제 풀이 진행  
 - Q1. Revising the Select Query I) https://www.hackerrank.com/challenges/revising-the-select-query/problem
 - Q2. Select By ID) https://www.hackerrank.com/challenges/select-by-id/problem
 - Q3. Weather Observation Station 6) https://www.hackerrank.com/challenges/weather-observation-station-6/problem
 - Q4. Weather Observation Station 12) https://www.hackerrank.com/challenges/weather-observation-station-12/problem
 ##  
 #### ► [03_order_by_220925]  
-- ORDER BY 활용 실습 및 HackerRank 4문제 풀이 진행  
+- ORDER BY 활용 실습 및 HackerRank 문제 풀이 진행  
 - Q1. Employee Names) https://www.hackerrank.com/challenges/name-of-employees/problem
 - Q2. Employee Salaries) https://www.hackerrank.com/challenges/salary-of-employees/problem
 - Q3. Higher Than 75 Marks) https://www.hackerrank.com/challenges/more-than-75-marks/problem
