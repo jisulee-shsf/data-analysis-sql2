@@ -1,6 +1,6 @@
 -- Q1. Pivot Table) CASE WHEN을 사용해 SupplierID별 Price 총합 출력하기
 SELECT SUM(CASE WHEN SupplierID = 1 THEN Price ELSE NULL END) AS 'SupplierID1_avg'
-	 , SUM(CASE WHEN SupplierID = 2 THEN Price ELSE NULL END) AS 'SupplierID2_avg'
+     , SUM(CASE WHEN SupplierID = 2 THEN Price ELSE NULL END) AS 'SupplierID2_avg'
      , SUM(CASE WHEN SupplierID = 3 THEN Price ELSE NULL END) AS 'SupplierID3_avg'
 FROM Products;
 
