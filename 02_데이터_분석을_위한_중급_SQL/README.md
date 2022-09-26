@@ -21,11 +21,8 @@
 ##  
 #### ► [03_case_01_220926]  
 - CASE 활용 실습 및 HackerRank 1문제 풀이 진행  
-- Q. Type of Triangle) https://www.hackerrank.com/challenges/what-type-of-triangle/problem  
-- ✔︎  
+- Q. Type of Triangle) https://www.hackerrank.com/challenges/what-type-of-triangle/problem
+- ✔︎ SQL에서 두 개 이상의 조건 나열 시, AND 또는 OR의 연산자를 이용해 연결 필요 / A = B = C 연결 불가
+- ✔︎ WHEN 조건 나열 시, 정삼각형은 이등변삼각형 조건에 중첩되므로 '정삼각형 > 이등변삼각형' 순으로 나열 필요 
+- ✔︎ 두 변의 길이가 같더라도 두 변의 합이 한 변의 합보다 같거나 작을 시 삼각형이 될 수 없으므로 '불가 조건 > 이등변삼각형' 순으로 나열 필요
 ####  
-#### ► [04_case_02_220926]  
-- HackerRank 2문제 풀이 진행  
-- Q. Type of Triangle) https://www.hackerrank.com/challenges/what-type-of-triangle/problem  
-- ✔︎  
-##  
