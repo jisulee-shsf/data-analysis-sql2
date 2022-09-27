@@ -48,7 +48,7 @@
 <img width="614" alt="image" src="https://user-images.githubusercontent.com/109773795/192577367-0c085221-9dc5-4c40-a1df-06bf71348b61.png">
 
 - Q2. 197. Rising Temperature) https://leetcode.com/problems/rising-temperature/
-- ✔︎ SELF JOIN의 경우, 1개의 table을 2중으로 활용하는 것이므로 alias를 설정해 정보 확인 필요
+- ✔︎ SELF JOIN의 경우, 1개의 table을 중복으로 사용하는 것이므로 alias를 설정해 정보 확인 필요
 <img width="614" alt="image" src="https://user-images.githubusercontent.com/109773795/192577577-85d16595-a9bc-49ad-ad07-5ecd862d1138.png">
 
 ####  
