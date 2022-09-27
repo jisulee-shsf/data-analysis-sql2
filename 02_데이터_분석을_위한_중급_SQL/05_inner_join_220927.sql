@@ -3,13 +3,13 @@
 -- Q1. Customers & Orders & Shipper table을 key 컬럼 기준으로 INNER JOIN 실행하기
 SELECT *
 FROM Customers
-	 INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+     INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
      INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
 
 -- Q2. Q1 간략히 재 실행하기
 SELECT *
 FROM Customers a
-	 INNER JOIN Orders b ON a.CustomerID = b.CustomerID
+     INNER JOIN Orders b ON a.CustomerID = b.CustomerID
      INNER JOIN Shippers c ON b.ShipperID = c.ShipperID
 
 -- [Section 2] HakerRank
@@ -19,7 +19,7 @@ Given the CITY and COUNTRY tables, query the names of all cities where the CONTI
 Note: CITY.CountryCode and COUNTRY.Code are matching key columns. */
 SELECT CITY.NAME
 FROM CITY
-    INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
+     INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
 WHERE CONTINENT = 'Africa'
      
 /* Q2. Population Census)
@@ -37,5 +37,5 @@ Note: CITY.CountryCode and COUNTRY.Code are matching key columns. */
 SELECT COUNTRY.CONTINENT
      , FLOOR(AVG(CITY.POPULATION))
 FROM CITY 
-    INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
+     INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
 GROUP BY CONTINENT
