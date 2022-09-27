@@ -13,10 +13,12 @@
 - 01_count_sum_avg_min_max_220925
 - 02_group_by_220926
 - 03_case_01_220926
-- 04_case_02_220926
+- 04_inner_join_220927
+- 05_left_join_220927
+- 06_self_join_220928
 ####
 ## Reference
-- [Inflearn] 데이터 분석을 위한 기초 SQL / 데이터 분석을 위한 중급 SQL
+- [datarian] 데이터 분석을 위한 기초 SQL / 데이터 분석을 위한 중급 SQL
 - https://leetcode.com/
 - https://www.hackerrank.com/
 - https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
