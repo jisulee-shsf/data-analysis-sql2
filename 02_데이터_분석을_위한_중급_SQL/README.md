@@ -42,3 +42,13 @@
 <img width="180" alt="image" src="https://user-images.githubusercontent.com/109773795/192438504-478244e2-f1ef-4183-8a36-c2d5fa6215c2.png">
 
 ####  
+#### ► [06_self_join_220928]  
+- SELF JOIN LeetCode 문제 풀이 진행
+- Q1. 181. Employees Earning) https://leetcode.com/problems/employees-earning-more-than-their-managers/
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/109773795/192577367-0c085221-9dc5-4c40-a1df-06bf71348b61.png">
+
+- Q2. 197. Rising Temperature) https://leetcode.com/problems/rising-temperature/
+- ✔︎ SELF JOIN의 경우, 1개의 table을 2중으로 활용하는 것이므로 alias를 설정해 정보 확인 필요
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/109773795/192577577-85d16595-a9bc-49ad-ad07-5ecd862d1138.png">
+
+####  
