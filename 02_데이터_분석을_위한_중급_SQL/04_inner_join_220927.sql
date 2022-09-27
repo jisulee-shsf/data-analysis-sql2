@@ -1,12 +1,12 @@
 -- [Section 1] INNER JOIN
 
--- Q1. Customers & Orders & Shipper table을 key 컬럼 기준으로 INNER JOIN 실행하기
+-- Q1-1. Customers & Orders & Shipper table을 key 컬럼 기준으로 INNER JOIN 실행하기
 SELECT *
 FROM Customers
      INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
      INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID;
 
--- Q2. Q1 간략히 재 실행하기
+-- Q1-2. table의 alias를 사용해 INNER JOIN 실행하기
 SELECT *
 FROM Customers a
      INNER JOIN Orders b ON a.CustomerID = b.CustomerID
