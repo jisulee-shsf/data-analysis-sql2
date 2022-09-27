@@ -19,17 +19,26 @@
 - Q. Top Earners) https://www.hackerrank.com/challenges/earnings-of-employees/problem  
 - ✔︎ SELECT 절에 alias 설정할 경우, alias를 사용해 다른 절에서 호출이 가능한 점 확인  
 ##  
-#### ► [03_case_01_220926]  
-- CASE 활용 실습 및 HackerRank 문제 풀이 진행  
-- Q. Type of Triangle) https://www.hackerrank.com/challenges/what-type-of-triangle/problem
-- ✔︎ SQL에서 두 개 이상의 조건 나열 시, AND 또는 OR의 연산자를 이용해 연결 필요 / A = B = C 연결 불가
-- ✔︎ WHEN 조건 나열 시, 정삼각형은 이등변삼각형 조건에 중첩되므로 '정삼각형 > 이등변삼각형' 순으로 나열 필요 
-- ✔︎ 두 변의 길이가 같더라도 두 변의 합이 한 변의 합보다 같거나 작을 시 삼각형이 될 수 없으므로 '불가 조건 > 이등변삼각형' 순으로 나열 필요
-####  
-#### ► [04_case_02_220927]  
-- CASE를 통한 pivot table 생성 실습 및 LeetCode 문제 풀이 진행
-- Q. 1179. Reformat Department Table) https://leetcode.com/problems/reformat-department-table/
-- ✔︎ CASE를 통한 생성한 pivot table에 GROUP BY 적용 확인
-<img width="718" alt="image" src="https://user-images.githubusercontent.com/109773795/192389358-8c1b9604-59cb-4d1c-89ba-090cefcdc947.png">
+#### ► [03_case_220926]  
+- CASE 활용 실습 및 HackerRank / LeetCode 문제 풀이 진행  
+- Q1. Type of Triangle) https://www.hackerrank.com/challenges/what-type-of-triangle/problem  
+- ✔︎ SQL에서 두 개 이상의 조건 나열 시, AND 또는 OR의 연산자를 이용해 연결 필요 / A = B = C 연결 불가  
+- ✔︎ WHEN 조건 나열 시, 정삼각형은 이등변삼각형 조건에 중첩되므로 '정삼각형 > 이등변삼각형' 순으로 나열 필요  
+- ✔︎ 두 변의 길이가 같더라도 두 변의 합이 한 변의 합보다 같거나 작을 시 삼각형이 될 수 없으므로 '불가 조건 > 이등변삼각형' 순으로 나열 필요  
+- Q2. 1179. Reformat Department Table) https://leetcode.com/problems/reformat-department-table/  
+- ✔︎ CASE를 통한 생성한 pivot table에 GROUP BY 적용 확인  
+<img width="718" alt="image" src="https://user-images.githubusercontent.com/109773795/192389358-8c1b9604-59cb-4d1c-89ba-090cefcdc947.png">  
 
 ##  
+#### ► [04_inner_join_220927]  
+- INNER JOIN 활용 실습 및 HackerRank 문제 풀이 진행  
+- Q1. African Cities) https://www.hackerrank.com/challenges/african-cities/problem
+- Q2. Population Census) https://www.hackerrank.com/challenges/asian-population/problem
+- Q3. Average Population) https://www.hackerrank.com/challenges/average-population-of-each-continent/problem
+####  
+#### ► [05_left_join_220927]  
+- LEFT JOIN 활용 실습 및 LeetCode 문제 풀이 진행
+- Q. 183. Customers Who Never Order) https://leetcode.com/problems/customers-who-never-order/
+<img width="180" alt="image" src="https://user-images.githubusercontent.com/109773795/192438504-478244e2-f1ef-4183-8a36-c2d5fa6215c2.png">
+
+####  
