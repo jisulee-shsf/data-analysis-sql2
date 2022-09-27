@@ -7,8 +7,8 @@ GROUP BY SupplierID;
 
 -- Q2. SupplierID / CategoryId 기준으로 가격이 높은 순으로 평균 Price 출력하기
 SELECT SupplierID
-	 , CategoryId
-	 , AVG(Price)
+     , CategoryId
+     , AVG(Price)
 FROM Products
 GROUP BY SupplierID, CategoryId
 ORDER BY AVG(Price) DESC;
