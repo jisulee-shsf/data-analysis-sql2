@@ -2,7 +2,7 @@
 /* Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCODE for Japan is JPN. */
 SELECT SUM(POPULATION)
 FROM CITY
-WHERE COUNTRYCODE = 'JPN'
+WHERE COUNTRYCODE = 'JPN';
 
 -- Q2. Weather Observation Station 2)
 /* Query the following two values from the STATION table:
@@ -10,7 +10,7 @@ WHERE COUNTRYCODE = 'JPN'
 2. The sum of all values in LONG_W rounded to a scale of  decimal places. */ 
 SELECT ROUND(SUM(LAT_N), 2) AS lat
      , ROUND(SUM(LONG_W), 2) AS lon
-FROM STATION
+FROM STATION;
 
 -- Q3. Weather Observation Station 18)
 /* Consider  and  to be two points on a 2D plane.
@@ -22,7 +22,7 @@ Query the Manhattan Distance between points  and  and round it to a scale of  de
 Manhattan Distance Definition: The distance between two points measured along axes at right angles.
 In a plane with p1 at (x1, y1) and p2 at (x2, y2), it is |x1 - x2| + |y1 - y2|. */
 SELECT ROUND(ABS(MIN(LAT_N) - MAX(LAT_N)) + ABS(MIN(LONG_W) - MAX(LONG_W)), 4)
-FROM STATION
+FROM STATION;
 
 -- Q4. New Companies)
 /* Given the table schemas below, write a query to print the company_code, 
@@ -45,7 +45,7 @@ FROM Company a
      INNER JOIN Manager d ON c.company_code = d.company_code
      INNER JOIN Employee e ON d.company_code = e.company_code
 GROUP BY a.company_code
-ORDER BY company_code DESC
+ORDER BY company_code DESC;
 
 -- A2. 수정 코드
 SELECT C.company_code
@@ -60,4 +60,4 @@ FROM Company C
      LEFT JOIN Manager M ON S.senior_manager_code = M.senior_manager_code
      LEFT JOIN Employee E ON M.manager_code = E.manager_code
 GROUP BY C.company_code, C.founder
-ORDER BY C.company_code
+ORDER BY C.company_code;
