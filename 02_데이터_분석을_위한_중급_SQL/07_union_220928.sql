@@ -10,7 +10,7 @@ UNION
 	 
 SELECT *
 FROM Customers a 
-	 RIGHT JOIN Orders b ON a.CustomerID = b.CustomerID
+     RIGHT JOIN Orders b ON a.CustomerID = b.CustomerID
 	 
 -- [Section 2] HackerRank
 
