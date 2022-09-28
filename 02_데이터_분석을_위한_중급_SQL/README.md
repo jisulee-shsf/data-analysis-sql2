@@ -32,23 +32,28 @@
 ##  
 #### ► [04_inner_join_220927]  
 - INNER JOIN 활용 실습 및 HackerRank 문제 풀이 진행  
-- Q1. African Cities) https://www.hackerrank.com/challenges/african-cities/problem
-- Q2. Population Census) https://www.hackerrank.com/challenges/asian-population/problem
-- Q3. Average Population) https://www.hackerrank.com/challenges/average-population-of-each-continent/problem
+- Q1. African Cities) https://www.hackerrank.com/challenges/african-cities/problem  
+- Q2. Population Census) https://www.hackerrank.com/challenges/asian-population/problem  
+- Q3. Average Population) https://www.hackerrank.com/challenges/average-population-of-each-continent/problem  
 ####  
 #### ► [05_left_join_220927]  
-- LEFT JOIN 활용 실습 및 LeetCode 문제 풀이 진행
-- Q. 183. Customers Who Never Order) https://leetcode.com/problems/customers-who-never-order/
-<img width="180" alt="image" src="https://user-images.githubusercontent.com/109773795/192438504-478244e2-f1ef-4183-8a36-c2d5fa6215c2.png">
+- LEFT JOIN 활용 실습 및 LeetCode 문제 풀이 진행  
+- Q. 183. Customers Who Never Order) https://leetcode.com/problems/customers-who-never-order/  
+<img width="180" alt="image" src="https://user-images.githubusercontent.com/109773795/192438504-478244e2-f1ef-4183-8a36-c2d5fa6215c2.png">  
 
 ####  
 #### ► [06_self_join_220928]  
-- SELF JOIN LeetCode 문제 풀이 진행
-- Q1. 181. Employees Earning) https://leetcode.com/problems/employees-earning-more-than-their-managers/
-<img width="614" alt="image" src="https://user-images.githubusercontent.com/109773795/192577367-0c085221-9dc5-4c40-a1df-06bf71348b61.png">
+- SELF JOIN LeetCode 문제 풀이 진행  
+- Q1. 181. Employees Earning) https://leetcode.com/problems/employees-earning-more-than-their-managers/  
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/109773795/192577367-0c085221-9dc5-4c40-a1df-06bf71348b61.png">  
 
-- Q2. 197. Rising Temperature) https://leetcode.com/problems/rising-temperature/
-- ✔︎ SELF JOIN의 경우, 1개의 table을 중복으로 사용하는 것이므로 alias를 설정해 정보 확인 필요
-<img width="614" alt="image" src="https://user-images.githubusercontent.com/109773795/192577577-85d16595-a9bc-49ad-ad07-5ecd862d1138.png">
+- Q2. 197. Rising Temperature) https://leetcode.com/problems/rising-temperature/  
+- ✔︎ SELF JOIN의 경우, 1개의 table을 중복으로 사용하는 것이므로 alias를 설정해 정보 확인 필요  
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/109773795/192577577-85d16595-a9bc-49ad-ad07-5ecd862d1138.png">  
 
+##  
+#### ► [07_union_220928]  
+- 좌우로 데이터를 연결하는 JOIN 외, 상하로 데이터를 연결하는 UNION(DISTINCT) / UNION ALL 실습 및 HackerRank 문제 풀이 진행  
+- Q. Symmetric Pairs) https://www.hackerrank.com/challenges/symmetric-pairs/problem  
+- ✔︎ X와 Y가 같은 symmetric pair(20, 20)와 X와 Y가 다른 symmetric pair(21, 22)를 별도 구한 뒤, UNION 진행
 ####  
