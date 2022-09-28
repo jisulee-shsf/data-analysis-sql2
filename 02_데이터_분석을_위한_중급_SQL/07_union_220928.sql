@@ -10,7 +10,7 @@ UNION
 	 
 SELECT *
 FROM Customers a 
-     RIGHT JOIN Orders b ON a.CustomerID = b.CustomerID
+     RIGHT JOIN Orders b ON a.CustomerID = b.CustomerID;
 	 
 -- [Section 2] HackerRank
 
@@ -31,4 +31,4 @@ SELECT a.X, a.Y
 FROM Functions a
      INNER JOIN Functions b ON a.X = b.Y AND a.Y = b.X
 WHERE a.X < a.Y
-ORDER BY X
+ORDER BY X;
