@@ -23,7 +23,7 @@ SELECT today.id AS today_id
      , yesterday.temperature AS yesterday_temperature
 FROM Weather today
      INNER JOIN Weather yesterday ON DATE_ADD(yesterday.recordDate, INTERVAL 1 DAY) = today.recordDate
-WHERE today.temperature > yesterday.temperature
+WHERE today.temperature > yesterday.temperature;
 
 ["today_id", "today_recordDate", "today_temperature", "yesterday_id", "yesterday_recordDate", "yesterday_temperature"]
 [2, "2015-01-02", 25, 1, "2015-01-01", 10]
