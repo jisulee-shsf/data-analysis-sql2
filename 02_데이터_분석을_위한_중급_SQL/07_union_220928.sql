@@ -4,7 +4,7 @@
 -- Q. 회원이나 주문을 안한 경우(LEFT JOIN)와 주문은 했으나 비회원인 경우(RIGHT JOIN)를 모두 출력하기
 SELECT *
 FROM Customers a 
-	 LEFT JOIN Orders b ON a.CustomerID = b.CustomerID
+     LEFT JOIN Orders b ON a.CustomerID = b.CustomerID
 
 UNION
 	 
