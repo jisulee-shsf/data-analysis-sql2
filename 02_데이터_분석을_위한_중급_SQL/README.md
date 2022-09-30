@@ -1,5 +1,5 @@
 ####  
-## 01. 데이터 분석을 위한 중급 SQL  
+## 02. 데이터 분석을 위한 중급 SQL  
 #### ► [01_count_sum_avg_min_max_220925]  
 - 집계 함수 COUNT / SUM / AVG / MIN / MAX 활용 실습  
 - SELECT COUNT(Name) : NULL 값이 있을 경우, NULL을 제외한 값 출력  
