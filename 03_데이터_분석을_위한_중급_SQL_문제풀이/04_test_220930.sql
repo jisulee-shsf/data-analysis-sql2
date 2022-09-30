@@ -39,8 +39,8 @@ ORDER BY P2.Salary;
 SELECT Name
 FROM Friends F
      INNER JOIN Packages P1 ON F.Friend_ID = P1.ID
-     INNER JOIN Packages P2 ON F.ID = P2.ID
-     INNER JOIN Students S ON P2.ID = S.ID
+     INNER JOIN Students S ON F.ID = S.ID
+     INNER JOIN Packages P2 ON S.ID = P2.ID
 WHERE P1.Salary > P2.Salary
 ORDER BY P1.Salary;
 
