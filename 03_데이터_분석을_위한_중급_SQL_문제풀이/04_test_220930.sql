@@ -54,7 +54,7 @@ ORDER BY N;
 -- A2. 수정 코드
 SELECT DISTINCT B1.N 
               , CASE 
-	                 WHEN B1.P IS NULL THEN 'Root'
+	             WHEN B1.P IS NULL THEN 'Root'
                      WHEN B2.P IS NULL THEN 'Leaf' 
                      ELSE 'Inner'
                      END
