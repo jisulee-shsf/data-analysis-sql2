@@ -26,7 +26,16 @@ FROM Students S
      WHERE P1.Salary < P2.Salary
 ORDER BY P2.Salary;
 
--- A2. 수정 코드
+-- A2-1. 수정 코드
+SELECT S.Name
+FROM Students S
+     INNER JOIN Packages P1 ON S.ID = P1.ID
+     INNER JOIN Friends F ON P1.ID = F.ID
+     INNER JOIN Packages P2 ON F.Friend_ID = P2.ID
+WHERE P2.Salary > P1.Salary
+ORDER BY P2.Salary;
+
+-- A2-2. 수정 코드
 SELECT Name
 FROM Friends F
      INNER JOIN Packages P1 ON F.Friend_ID = P1.ID
