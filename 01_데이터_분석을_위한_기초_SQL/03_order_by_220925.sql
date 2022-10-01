@@ -27,7 +27,7 @@ FROM Employee
 ORDER BY;
 
 /* Q2. Employee Salaries)
-Write a query that prints a list of employee names (i.e.: the name attribute) for employees in Employee having a salary greater than  per month who have been employees for less than  months. 
+Write a query that prints a list of employee names (i.e.: the name attribute) for employees in Employee having a salary greater than $2000 per month who have been employees for less than 10 months. 
 Sort your result by ascending employee_id. */
 SELECT name
 FROM Employee
@@ -35,7 +35,7 @@ WHERE salary > 2000 AND months < 10
 ORDER BY employee_id;
 
 /* Q3. Higher Than 75 Marks)
-Query the Name of any student in STUDENTS who scored higher than  Marks. Order your output by the last three characters of each name. 
+Query the Name of any student in STUDENTS who scored higher than 75 Marks. Order your output by the last three characters of each name. 
 If two or more students both have names ending in the same last three characters (i.e.: Bobby, Robby, etc.), secondary sort them by ascending ID. */
 SELECT Name
 FROM STUDENTS
@@ -43,8 +43,8 @@ WHERE Marks > 75
 ORDER BY RIGHT(Name, 3), ID;
 
 /* Q4. Weather Observation Station 15)
-Query the Western Longitude (LONG_W) for the largest Northern Latitude (LAT_N) in STATION that is less than. 
-Round your answer to  decimal places. */
+Query the Western Longitude (LONG_W) for the largest Northern Latitude (LAT_N) in STATION that is less than 137.2345. 
+Round your answer to 4 decimal places. */
 SELECT ROUND(LONG_W, 4)
 FROM STATION
 WHERE LAT_N < 137.2345 
