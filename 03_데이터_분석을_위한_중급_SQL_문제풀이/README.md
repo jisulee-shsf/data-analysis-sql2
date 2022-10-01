@@ -2,9 +2,9 @@
 ## 03. 데이터 분석을 위한 중급 SQL 문제풀이  
 #### ► [01_test_220928]  
 - [O] Q1. 595. Big Countries) https://leetcode.com/problems/big-countries/  
-- ✔︎ 'at least'는 해당 수치를 포함하는 것을 의미 / it has an area of at least three million: area >= 3000000  
+- ✔︎ 'at least'는 해당 수치를 포함하는 것을 의미 / it has an area of at least three million → area >= 3000000  
 - [O] Q2. 620. Not Boring Movies) https://leetcode.com/problems/not-boring-movies/  
-- ✔︎ 'odd-numbered ID' 홀수 여부는 MOD()함수를 통해 2로 나누어 나머지가 1인 경우로 판별  
+- ✔︎ 'odd-numbered ID' 홀수 여부는 MOD()함수를 통해 값을 2로 나누어 나머지가 1인 경우로 판별  
 - [O] Q3. 182. Duplicate Emails) https://leetcode.com/problems/duplicate-emails/  
 - ✔︎ table 내에 duplicate 값을 찾는 경우, GROUP BY 후 집계 함수를 활용해 COUNT가 1 초과 혹은 2 이상인 값을 확인  
 - [O] Q4. 175. Combine Two Tables) https://leetcode.com/problems/combine-two-tables/  
@@ -13,7 +13,7 @@
 #### ► [02_test_220929]  
 - [O] Q1. Japan Population) https://www.hackerrank.com/challenges/japan-population/problem  
 - [O] Q2. Weather Observation Station 2) https://www.hackerrank.com/challenges/weather-observation-station-2/problem  
-- ✔︎ 소수점 이하 #자릿수를 반올림하는 'ROUND(컬럼 / 값, #)' 함수 사용 / TRUNCATE(컬럼 / 값, #), CEIL(컬럼 / 값), FLOOR(컬럼 / 값) 참고
+- ✔︎ ROUND(컬럼/값, #) 소수점 이후 #자릿수로 올림 함수 사용 / TRUNCATE(컬럼/값, #), CEIL(컬럼/값), FLOOR(컬럼 / 값) 참고
 - [O] Q3. Weather Observation Station 18) https://www.hackerrank.com/challenges/weather-observation-station-18/problem  
 - [✘] Q4. New Companies) https://www.hackerrank.com/challenges/the-company/problem  
 - ✔︎ output code 값이 int가 아닌 str이므로, 'total number of sth'은 SUM이 아닌 COUNT 사용
@@ -24,15 +24,22 @@
 ##  
 #### ► [03_test_220929]  
 - [O] Q1. Population Density Difference) https://www.hackerrank.com/challenges/population-density-difference/problem
-- [O] Q2. Weather Observation Station 11)
+- [O] Q2. Weather Observation Station 11) https://www.hackerrank.com/challenges/weather-observation-station-11/problem
 - ✔︎ 'LEFT(컬럼, 1) & RIGHT(컬럼, 1) NOT IN (모음 리스트)'을 사용해 문자열 시작과 끝의 모음 시작 여부 판별
-- [O] Q3. Weather Observation Station 13)
+- [O] Q3. Weather Observation Station 13) https://www.hackerrank.com/challenges/weather-observation-station-13/problem
 - ✔︎ 'greater than' & 'less than'은 각각 초과 & 미만을 의미 / LAT_N > 38.7880 AND LAT_N < 137.2345
-- [✘] Q4. Top Competitors)
+- [✘] Q4. Top Competitors) https://www.hackerrank.com/challenges/full-score/problem
 - ✔︎ submission table이 기준이므로, 제출되지 않은 challenge가 없음을 고려하여 LEFT JOIN이 아닌 INNER JOIN 사용
 - ✔︎ sample 안내에 따라, WHERE 절의 full score 기준은 score를 초과하는 것이 아닌 동일한 경우(WHERE S.score = D.score)임을 확인
 - ✔︎ hacker_id와 1:1 관계의 name은 GROUP BY 연산에 사용되진 않으나, output 출력을 위한 정보이므로 SELECT 절에 기재
 ## 
 #### ► [04_test_220930]  
--  
+- [O] Q1. Weather Observation Station 3) https://www.hackerrank.com/challenges/weather-observation-station-3/problem
+- ✔︎ 'even ID number' 짝수 여부는 MOD()함수를 통해 값을 2로 나누어 나머지가 0인 경우로 판별  
+- [O] Q2. Weather Observation Station 19) https://www.hackerrank.com/challenges/weather-observation-station-19/problem
+- ✔︎ POW & POWER(컬럼/값, #) #제곱 반환, SQRT(컬럼/값) 제곱근 반환, TRUNCATE(컬럼/값, #) 소수점 이후 #자릿수 외 버림 함수 사용
+- [✘] Q3. Placements) https://www.hackerrank.com/challenges/placements/problem
+- ✔︎ JOIN 기준 컬럼에 따라 output이 바뀔 수 있음에 주의 / 'P1.ID = F.Friend_ID' 연결 시, P1의 ID에 Friend_ID 순서가 맞춰져 오답이 출력됨
+- ✔︎ JOIN table를 복수로 사용할 경우, alias를 상이하게 설정하여 사용 가능
+- [✘] Q4. Binary Tree Nodes) https://www.hackerrank.com/challenges/binary-search-tree-1/problem
 ## 
