@@ -51,14 +51,14 @@ Root: If node is root node.
 Leaf: If node is leaf node.
 Inner: If node is neither root nor leaf node. */
 -- A1. 기존 코드
-SELECT N
-     , CASE 
-            WHEN P IS NULL THEN 'Root'
-            WHEN N NOT IN P THEN 'Leaf'
-            ELSE 'Inner'
-            END
-FROM BST
-ORDER BY N;
+SELECT B1.N, CASE 
+                  WHEN B1.P IS NULL THEN 'Root'
+                  WHEN B2.P IS NULL THEN 'Leaf'
+                  ELSE 'Inner'
+                  END
+FROM BST B1
+     LEFT JOIN BST B2 ON B1.N = B2.N
+ORDER BY B1.N;
 
 -- A2. 수정 코드
 SELECT DISTINCT B1.N 
