@@ -47,7 +47,7 @@
 - ✔︎ 'even ID number' 짝수 여부는 MOD()함수를 통해 값을 2로 나누어 나머지가 0인 경우로 판별  
 ####  
 - [O] Q2. Weather Observation Station 19) https://www.hackerrank.com/challenges/weather-observation-station-19/problem
-- ✔︎ POW & POWER(컬럼 or 값, n) n제곱 반환, SQRT(컬럼 or 값) 제곱근 반환, TRUNCATE(컬럼 or 값, n) 소수점 이후 n자릿수 외 버림 함수 사용
+- ✔︎ POW & POWER(컬럼 or 값, n) n제곱 반환 / SQRT(컬럼 or 값) 제곱근 반환 / TRUNCATE(컬럼 or 값, n) 소수점 이후 n자릿수 외 버림 함수 사용
 ####  
 - [✘] Q3. Placements) https://www.hackerrank.com/challenges/placements/problem
 - ✔︎ JOIN 기준 컬럼에 따라 output이 바뀔 수 있음에 주의 / 'P1.ID = F.Friend_ID' 기준 JOIN 시, P1 ID에 Friend_ID 순서가 맞춰져 오답 출력
