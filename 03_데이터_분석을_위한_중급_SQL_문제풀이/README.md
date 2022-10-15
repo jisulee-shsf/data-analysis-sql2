@@ -54,7 +54,7 @@
 - ✔︎ JOIN table를 복수로 사용할 경우, alias를 상이하게 설정해 사용 가능
 ####  
 - [✘] Q4. Binary Tree Nodes) https://www.hackerrank.com/challenges/binary-search-tree-1/problem
-- ✔︎ table 내 2개 이상의 컬럼 내 중복 여부를 확인해야 할 경우, 동일한 JOIN 컬럼 값이 없을 경우 NULL로 대체하는 LEFT JOIN으로 중복 여부 확인 가능
+- ✔︎ 2개 이상의 컬럼 내에 중복 여부를 확인해야 할 경우, 동일한 JOIN 컬럼 값이 없을 경우 NULL로 대체하는 LEFT JOIN으로 확인 가능
 - ✔︎ Root: 부모 node가 없을 경우 / Leaf: 자식 node가 없을 경우 = 부모 node가 아닐 경우(부모 node 컬럼에 없을 경우) / Inner: 기타
 - ✔︎ LEFT JOIN 시, B1 table의 자식 node가 동일한 B2 table의 부모 node 컬럼에 없으면 Leaf로 판단 / LEFT JOIN BST B2 ON B1.N = B2.P
 ####  
