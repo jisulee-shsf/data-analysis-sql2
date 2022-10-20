@@ -11,7 +11,7 @@ FROM Customers
 WHERE Country < 'B';
 
 # 비교 연산자와 논리 연산자를 사용해 특정 값 추출하기
--- AND : 두 조건을 모두 충족하는 경우 / OR : 두 조건 중, 하나라도 충족하는 경우
+# AND : 두 조건을 모두 충족하는 경우 / OR : 두 조건 중, 하나라도 충족하는 경우
 SELECT * 
 FROM Customers
 WHERE CustomerID < 20 AND Country = 'UK';
@@ -19,8 +19,8 @@ WHERE CustomerID < 20 AND Country = 'UK';
 -- [Section 2] LIKE / IN / BETWEEN / IS NULL
 
 # '%' 와일드카드 문자를 사용해 Country가 'K'로 끝나는 값 추출하기
--- 대소문자 구분 없이 값 추출 확인 / e.g. '%K' > UK, Denmark
--- 사용에 따라 %의 위치 변경 가능 / e.g. '%A', '%A%', 'A%'
+# 대소문자 구분 없이 값 추출 확인 / e.g. '%K' > UK, Denmark
+# 사용에 따라 %의 위치 변경 가능 / e.g. '%A', '%A%', 'A%'
 SELECT *
 FROM Customers
 WHERE Country LIKE '%K';
@@ -47,30 +47,30 @@ SELECT *
 FROM Customers
 WHERE CustomerID BETWEEN 7 AND 10;
 
-# Q6. CustomerID가 'NULL'인 값 추출하기
+# CustomerID가 'NULL'인 값 추출하기
 SELECT *
 FROM Customers
 WHERE CustomerID IS NULL;
 
 -- [Section 3] HackerRank
 
-/* Q1. Revising the Select Query I)
+/* Revising the Select Query I)
 Query all columns for all American cities in the CITY table with populations larger than 100000. 
 The CountryCode for America is USA. */
 SELECT *
 FROM CITY
 WHERE COUNTRYCODE = 'USA' AND POPULATION > 100000;
 
-/* Q2. Select By ID)
+/* Select By ID)
 Query all columns for a city in CITY with the ID 1661. */
 SELECT *
 FROM CITY
 WHERE ID = 1661;
 
-/* Q3. Weather Observation Station 6)
+/* Weather Observation Station 6)
 Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. 
 Your result cannot contain duplicates. */
--- WHERE CITY IN ('a%', 'e%', 'i%', 'o%', 'u%'); > IN의 경우, CITY 컬럼 값과 괄호 문자열이 정확히 일치하는 경우만 찾는 것을 의미하므로 적용 불가 
+# WHERE CITY IN ('a%', 'e%', 'i%', 'o%', 'u%'); > IN의 경우, CITY 컬럼 값과 괄호 문자열이 정확히 일치하는 경우만 찾는 것을 의미하므로 적용 불가 
 SELECT DISTINCT CITY
 FROM STATION
 WHERE CITY LIKE 'a%' 
@@ -79,7 +79,7 @@ OR CITY LIKE 'i%'
 OR CITY LIKE 'o%'
 OR CITY LIKE 'u%';
 
-/* Q4. Weather Observation Station 12)
+/* Weather Observation Station 12)
 Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. 
 Your result cannot contain duplicates. */
 SELECT DISTINCT CITY 
