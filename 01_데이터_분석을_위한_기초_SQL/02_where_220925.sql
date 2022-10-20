@@ -1,16 +1,16 @@
 -- [Section 1] 비교 연산자와 논리 연산자
 
--- Q1. 비교 연산자를 사용해 CustomerID가 10 미만인 값 추출하기
+# 비교 연산자를 사용해 CustomerID가 10 미만인 값 추출하기
 SELECT * 
 FROM Customers
 WHERE CustomerID < 20;
 
--- Q2. 비교 연산자를 사용해 Country가 A로 시작하는 값 추출하기
+# 비교 연산자를 사용해 Country가 A로 시작하는 값 추출하기
 SELECT * 
 FROM Customers
 WHERE Country < 'B';
 
--- Q3. 비교 연산자와 논리 연산자를 사용해 특정 값 추출하기
+# 비교 연산자와 논리 연산자를 사용해 특정 값 추출하기
 -- AND : 두 조건을 모두 충족하는 경우 / OR : 두 조건 중, 하나라도 충족하는 경우
 SELECT * 
 FROM Customers
@@ -18,36 +18,36 @@ WHERE CustomerID < 20 AND Country = 'UK';
 
 -- [Section 2] LIKE / IN / BETWEEN / IS NULL
 
--- Q1. '%' 와일드카드 문자를 사용해 Country가 'K'로 끝나는 값 추출하기
+# '%' 와일드카드 문자를 사용해 Country가 'K'로 끝나는 값 추출하기
 -- 대소문자 구분 없이 값 추출 확인 / e.g. '%K' > UK, Denmark
 -- 사용에 따라 %의 위치 변경 가능 / e.g. '%A', '%A%', 'A%'
 SELECT *
 FROM Customers
 WHERE Country LIKE '%K';
 
--- Q2. '_' 와일드카드 문자를 사용해 'U'로 시작하는 두 글자 값 추출하기
+# '_' 와일드카드 문자를 사용해 'U'로 시작하는 두 글자 값 추출하기
 SELECT *
 FROM Customers
 WHERE Country LIKE 'U_';
 
--- Q3. '\' 이스케이프 문자를 사용해 두 자릿수의 할인을 받는 퍼센트 값 추출하기
+# '\' 이스케이프 문자를 사용해 두 자릿수의 할인을 받는 퍼센트 값 추출하기
 SELECT *
 FROM Customers
 WHERE Discount LIKE '__\%';
 
--- Q4. Country가 'Canada' & 'France'인 값 추출하기
--- WHERE Country = 'Canada' OR Country = 'France'; > IN 구문으로 간략히 출력 가능
+# Country가 'Canada' & 'France'인 값 추출하기
+# WHERE Country = 'Canada' OR Country = 'France'; > IN 구문으로 간략히 출력 가능
 SELECT *
 FROM Customers
 WHERE Country IN ('Canada', 'France');
 
--- Q5. CustomerID가 7이상 10이하인 값 추출하기
--- WHERE CustomerID >= 7 AND CustomerID <= 10; > BETWEEN 구문으로 간략히 출력 가능
+# CustomerID가 7이상 10이하인 값 추출하기
+# WHERE CustomerID >= 7 AND CustomerID <= 10; > BETWEEN 구문으로 간략히 출력 가능
 SELECT *
 FROM Customers
 WHERE CustomerID BETWEEN 7 AND 10;
 
--- Q6. CustomerID가 'NULL'인 값 추출하기
+# Q6. CustomerID가 'NULL'인 값 추출하기
 SELECT *
 FROM Customers
 WHERE CustomerID IS NULL;
