@@ -11,7 +11,7 @@ FROM Customers
 WHERE Country < 'B';
 
 # 비교 연산자와 논리 연산자를 사용해 특정 값 추출하기
-# AND : 두 조건을 모두 충족하는 경우 / OR : 두 조건 중, 하나라도 충족하는 경우
+# AND - 두 조건을 모두 충족하는 경우 / OR - 두 조건 중, 하나라도 충족하는 경우
 SELECT * 
 FROM Customers
 WHERE CustomerID < 20 AND Country = 'UK';
