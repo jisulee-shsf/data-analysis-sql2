@@ -1,12 +1,12 @@
 -- [Section 1] INNER JOIN
 
--- Q1-1. Customers & Orders & Shipper table을 key 컬럼 기준으로 INNER JOIN 실행하기
+# Customers & Orders & Shipper table을 key 컬럼 기준으로 INNER JOIN 실행하기
 SELECT *
 FROM Customers
      INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
      INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID;
 
--- Q1-2. table의 alias를 사용해 INNER JOIN 실행하기
+# table의 alias를 사용해 INNER JOIN 실행하기
 SELECT *
 FROM Customers a
      INNER JOIN Orders b ON a.CustomerID = b.CustomerID
@@ -14,7 +14,7 @@ FROM Customers a
 
 -- [Section 2] HakerRank
 
-/* Q1. African Cities)
+/* African Cities -
 Given the CITY and COUNTRY tables, query the names of all cities where the CONTINENT is 'Africa'.
 Note: CITY.CountryCode and COUNTRY.Code are matching key columns. */
 SELECT CITY.NAME
@@ -22,7 +22,7 @@ FROM CITY
      INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
 WHERE CONTINENT = 'Africa';
      
-/* Q2. Population Census)
+/* Population Census -
 Given the CITY and COUNTRY tables, query the sum of the populations of all cities where the CONTINENT is 'Asia'.
 Note: CITY.CountryCode and COUNTRY.Code are matching key columns. */
 SELECT SUM(CITY.POPULATION)
@@ -30,7 +30,7 @@ FROM CITY
      INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.Code
 WHERE CONTINENT = 'Asia';
 
-/* Q3. Average Population of Each Continent)
+/* Average Population of Each Continent -
 Given the CITY and COUNTRY tables, query the names of all the continents (COUNTRY.Continent) 
 and their respective average city populations (CITY.Population) rounded down to the nearest integer.
 Note: CITY.CountryCode and COUNTRY.Code are matching key columns. */
