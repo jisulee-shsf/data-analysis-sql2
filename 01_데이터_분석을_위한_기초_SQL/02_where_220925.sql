@@ -54,7 +54,7 @@ WHERE CustomerID IS NULL;
 
 -- [Section 3] HackerRank
 
-/* Revising the Select Query I)
+/* Revising the Select Query I -
 Query all columns for all American cities in the CITY table with populations larger than 100000. 
 The CountryCode for America is USA. */
 SELECT *
@@ -67,7 +67,7 @@ SELECT *
 FROM CITY
 WHERE ID = 1661;
 
-/* Weather Observation Station 6)
+/* Weather Observation Station 6 -
 Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. 
 Your result cannot contain duplicates. */
 # WHERE CITY IN ('a%', 'e%', 'i%', 'o%', 'u%'); > IN의 경우, CITY 컬럼 값과 괄호 문자열이 정확히 일치하는 경우만 찾는 것을 의미하므로 적용 불가 
@@ -79,7 +79,7 @@ OR CITY LIKE 'i%'
 OR CITY LIKE 'o%'
 OR CITY LIKE 'u%';
 
-/* Weather Observation Station 12)
+/* Weather Observation Station 12 -
 Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. 
 Your result cannot contain duplicates. */
 SELECT DISTINCT CITY 
