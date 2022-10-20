@@ -35,11 +35,11 @@
 - African Cities - https://www.hackerrank.com/challenges/african-cities/problem
 - Population Census - https://www.hackerrank.com/challenges/asian-population/problem
 - Average Population - https://www.hackerrank.com/challenges/average-population-of-each-continent/problem
-####
+##
 #### ► [05_left_join_220927]
 - LEFT JOIN 활용 실습 및 LeetCode 문제풀이 진행
 - Customers Who Never Order - https://leetcode.com/problems/customers-who-never-order/
-####
+##
 #### ► [06_self_join_220928]
 - SELF JOIN 활용 실습 및 LeetCode 문제풀이 진행
 - Employees Earning - https://leetcode.com/problems/employees-earning-more-than-their-managers/
