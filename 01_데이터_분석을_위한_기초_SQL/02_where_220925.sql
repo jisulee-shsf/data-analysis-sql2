@@ -61,7 +61,7 @@ SELECT *
 FROM CITY
 WHERE COUNTRYCODE = 'USA' AND POPULATION > 100000;
 
-/* Select By ID)
+/* Select By ID -
 Query all columns for a city in CITY with the ID 1661. */
 SELECT *
 FROM CITY
