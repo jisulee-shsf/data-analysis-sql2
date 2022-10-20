@@ -1,4 +1,4 @@
-/* Q1. 181. Employees Earning More Than Their Managers)
+/* Employees Earning More Than Their Managers -
 Write an SQL query to find the employees who earn more than their managers.
 Return the result table in any order. */
 SELECT a.name AS Employee
@@ -6,7 +6,7 @@ FROM Employee a
      INNER JOIN Employee b ON a.managerId = b.id
 WHERE a.salary > b.salary;
 
-/* Q2. 197. Rising Temperature)
+/* Rising Temperature -
 Write an SQL query to find all dates' Id with higher temperatures compared to its previous dates (yesterday).
 Return the result table in any order. */
 SELECT today.id
