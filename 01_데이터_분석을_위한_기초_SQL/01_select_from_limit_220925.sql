@@ -1,6 +1,6 @@
 -- [Section 1] SELECT / FROM / LIMIT
 
--- Q. 'LIMIT'를 사용해 전체 데이터의 상위 10개 값 추출하기
+# 'LIMIT'를 사용해 전체 데이터의 상위 10개 값 추출하기
 SELECT *
 FROM Customers
 LIMIT 10;
