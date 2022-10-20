@@ -3,14 +3,14 @@
 # Customers & Orders & Shipper table을 key 컬럼 기준으로 INNER JOIN 실행하기
 SELECT *
 FROM Customers
-     INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
-     INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID;
+INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID;
 
 # table의 alias를 사용해 INNER JOIN 실행하기
 SELECT *
 FROM Customers a
-     INNER JOIN Orders b ON a.CustomerID = b.CustomerID
-     INNER JOIN Shippers c ON b.ShipperID = c.ShipperID;
+INNER JOIN Orders b ON a.CustomerID = b.CustomerID
+INNER JOIN Shippers c ON b.ShipperID = c.ShipperID;
 
 -- [Section 2] HakerRank
 
@@ -19,7 +19,7 @@ Given the CITY and COUNTRY tables, query the names of all cities where the CONTI
 Note: CITY.CountryCode and COUNTRY.Code are matching key columns. */
 SELECT CITY.NAME
 FROM CITY
-     INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
+INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
 WHERE CONTINENT = 'Africa';
      
 /* Population Census -
@@ -27,7 +27,7 @@ Given the CITY and COUNTRY tables, query the sum of the populations of all citie
 Note: CITY.CountryCode and COUNTRY.Code are matching key columns. */
 SELECT SUM(CITY.POPULATION)
 FROM CITY 
-     INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.Code
+INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.Code
 WHERE CONTINENT = 'Asia';
 
 /* Average Population of Each Continent -
@@ -37,5 +37,5 @@ Note: CITY.CountryCode and COUNTRY.Code are matching key columns. */
 SELECT COUNTRY.CONTINENT
      , FLOOR(AVG(CITY.POPULATION))
 FROM CITY 
-     INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
+INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE
 GROUP BY CONTINENT;
