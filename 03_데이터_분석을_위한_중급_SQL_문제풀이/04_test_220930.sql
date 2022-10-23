@@ -60,7 +60,7 @@ FROM BST B1
 LEFT JOIN BST B2 ON B1.N = B2.N
 ORDER BY B1.N;
 
--- A2. 수정 코드
+-- 수정 코드
 SELECT DISTINCT B1.N 
               , CASE 
 	            WHEN B1.P IS NULL THEN 'Root'
