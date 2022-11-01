@@ -12,7 +12,7 @@
 #### ► [02_데이터_분석을_위한_중급_SQL]
 - 01_count_sum_avg_min_max_220925
 - 02_group_by_220926
-- 03_case_01_220926
+- 03_case_220926
 - 04_inner_join_220927
 - 05_left_join_220927
 - 06_self_join_220928
