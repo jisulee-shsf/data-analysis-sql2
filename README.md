@@ -25,7 +25,7 @@
 - 04_test_220930
 ####
 ## Reference
-- [datarian] 데이터 분석을 위한 기초 SQL / 데이터 분석을 위한 중급 SQL / 데이터 분석을 위한 중급 SQL 문제풀이 강의
+- [Datarian] 데이터 분석을 위한 기초 SQL / 데이터 분석을 위한 중급 SQL / 데이터 분석을 위한 중급 SQL 문제풀이 강의
 - https://www.w3schools.com/
 - https://www.hackerrank.com/
 - https://leetcode.com/
